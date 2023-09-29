@@ -1,0 +1,36 @@
+.container{
+
+    background-color: #FAF3E4    ;
+      font-family: 'Cutive Mono', monospace;
+      display: flex;
+      float: left;
+      }
+  
+      .columns{
+        background-color: #FAF3E4    ;
+          display: flex;
+          width: 100%; 
+          padding: 0px;
+          float: left;
+     
+      }
+
+      .column{
+        flex: 1; 
+        margin: 10px;
+        padding: 10px;
+      
+    
+      }
+    
+      .row{
+        background-color: #FAF3E4    ;
+        width: 100%;
+        padding: 0px;
+    
+      }
+
+      #yellowintro{
+top: 200;
+        background-color: #ffdc85;
+      }
