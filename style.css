@@ -1,49 +1,115 @@
 body{
    background-color: #FAF3E4    ;
 font-family: 'Cutive Mono', monospace;
-
+display: flex;
+flex-direction: column;
+margin: 20px;
 
 }
+
+
 
 
 h1{
     font-family: 'Reenie Beanie', cursive;
-    font-size: 60px;
+    font-size: 90px;
+    margin: 10px;
+    margin-left: 40px;
 
 }
 
-.top-right-menu {
-    float: right;
-    z-index: 1;
+h2{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 40px;
+    margin: 10px;
+   
 }
 
-.top-right-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.top-right-menu li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.top-right-menu a {
-    text-decoration: none;
-    color: #040404;
-    font-weight: bold;
-}
-
-.top-right-menu a:hover {
-    color: #ff6600; 
-}
 
 .resumetext {
-
-    margin: 20px;
+    margin: 10px;
 }
+
 
 a {
     color: hotpink;
     text-decoration: none;
   }
+
+  a:hover{
+
+    text-decoration: underline;
+    
+  }
+
+  .container{
+
+  background-color: #FAF3E4;
+    font-family: 'Cutive Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+
+
+    .columns{
+        display: flex;
+        justify-content: space-between; /* Space columns evenly */
+        width: 100%; /* Adjust the width as needed */
+        padding: 0px;
+    }
+  .column{
+    flex: 1; /* Equal width for both columns */
+    background-color: #ffebcc; /* Add styling as desired */
+    margin: 10px;
+    padding: 10px;
+
+  }
+
+  .row{
+    width: 100%;
+    background-color: #ffdc85;
+    padding: 10px;
+
+  }
+
+
+  .natimage{
+max-width: 100%;
+height: auto;
+position: relative;
+top: 0;
+  }
+
+  .baby{
+    max-width: 10%;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+      }
+
+
+      /*images grid */
+      .rows {
+        margin: 8px -16px;
+      }
+
+      .columns1 {
+        float: left;
+        width: 25%;
+      }
+
+      /* Clear floats after rows */
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .contentgrid {
+    padding: 10px;
+  }
+
