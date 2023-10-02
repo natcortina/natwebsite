@@ -1,0 +1,28 @@
+.yo{
+    max-width: 20%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    right: 50px;
+    opacity: 40%;
+      }
+
+      .yo2{
+        max-width: 20%;
+        height: auto;
+        top: 0px;
+        right: 50px;
+        opacity: 40%;
+          }
+
+      .weirdguy{
+        max-width: 20%;
+        height: auto;
+        position: absolute;
+        bottom: -430px;
+        z-index: 1;
+        right: 20px;
+        opacity: 40%;
+        transform: scaleX(-1);
+          }

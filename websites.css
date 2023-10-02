@@ -1,0 +1,13 @@
+.rowwebsites {
+
+    background-color: bisque;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    margin: 10px;
+}
+
+.columns{
+border-style: none;
+width: 100%; 
+}
