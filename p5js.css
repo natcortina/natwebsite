@@ -1,5 +1,17 @@
 
-.columns{
+.websitessheader{
+
+    font-size: 80px;
+}
+
+.resumetext.websitesheader2{
+
+    font-size: 20px;
+}
+
+
+
+#columns{
     border-style: none;
 }
 
