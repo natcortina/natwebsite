@@ -6,12 +6,14 @@
     z-index: 1;
     right: 50px;
     opacity: 40%;
+    transition:  0.5s ease; 
       }
 
 
       .yo:hover{
 
         opacity: 90%;
+        transition:  0.5s ease; 
       }
 
       .yo2{
@@ -20,10 +22,11 @@
         top: 0px;
         right: 50px;
         opacity: 40%;
+        transition:  0.5s ease;
           }
 
           .yo2:hover{
-
+            transition:  0.5s ease; 
             opacity: 90%;
           }
     
@@ -36,12 +39,13 @@
         z-index: 1;
         right: 20px;
         opacity: 40%;
-        transform: scaleX(-1);
+        transition:  0.5s ease; 
+        transform:  scaleX(-1);
         margin-top:-50%
           }
 
           .weirdguy:hover{
-
+            transition:  0.5s ease; 
             opacity: 90%;
           }
     
@@ -55,11 +59,12 @@
             left: 310px;
             opacity: 40%;
             transform: scaleX(-1);
+            transition:  0.5s ease; 
             margin-top:-50%
               }
 
               .phonz:hover{
-
+                transition:  0.5s ease; 
                 opacity: 90%;
               }
 
