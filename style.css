@@ -22,8 +22,9 @@ h1{
 
 h2{
     font-family: 'Reenie Beanie', cursive;
-    font-size: 60px;
+    font-size: 40px;
     margin: 30px;
+
    
 }
 
@@ -72,13 +73,12 @@ a {
   .column{
     flex: 1;  
     margin: 10px;
-  
-
   }
 
   .row{
     width: 100%;
-    background-color: #ffdc85;
+   /*background-color: #ffdc85;*/
+   background-color: #fae5b0;
     padding: 20px;
     margin: 10px;
 
@@ -106,7 +106,13 @@ top: 0;
     z-index: 1;
     left: 250px;
     opacity: 40%;
+
       }
+
+      .baby:hover{
+     
+        opacity: 90%;
+          }
 
 
       /*images grid */
@@ -120,16 +126,6 @@ top: 0;
         float: left;
         width: 25%;
       }
-
-
-        /* id for animations page */
-
-       #animationspage {
-            float: right;
-            width: 50%;
-           
-          }
-
 
 
       /* Clear floats after rows */
@@ -146,23 +142,14 @@ top: 0;
   }
 
   
-.gif-container {
-    width: 400px; 
-    height: 300px; 
-    overflow: hidden;
-    position: relative;
-}
+
 
 .gif {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 50%;
+    height: 50%;
+    object-fit: fill;
     transition: transform 0.3s ease; 
-}
-
-/* Scale the GIF up on hover to play it */
-.gif-container:hover .gif {
-    transform: scale(1.2); 
+    align-content: center;
 }
 
 
@@ -170,3 +157,42 @@ top: 0;
 
     margin: 30px;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust as needed for smaller screens */
+    }
+
+    h1 {
+        font-size:90px;
+    }
+
+    h2 {
+        font-size:30px;
+    }
+
+    p {
+        font-size: 10px
+    }
+
+    .resumetext {
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    a{
+
+        font-size: 40px;
+        word-break:break-all;
+    }
+
+   
+}
+
+
+#indextext {
+    margin: 20px;
+    word-wrap: normal;
+}
+
+

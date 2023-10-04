@@ -8,6 +8,12 @@
     opacity: 40%;
       }
 
+
+      .yo:hover{
+
+        opacity: 90%;
+      }
+
       .yo2{
         max-width: 20%;
         height: auto;
@@ -16,13 +22,61 @@
         opacity: 40%;
           }
 
+          .yo2:hover{
+
+            opacity: 90%;
+          }
+    
+
       .weirdguy{
         max-width: 20%;
         height: auto;
         position: absolute;
-        bottom: -430px;
+        bottom: -300px;
         z-index: 1;
         right: 20px;
         opacity: 40%;
         transform: scaleX(-1);
+        margin-top:-50%
           }
+
+          .weirdguy:hover{
+
+            opacity: 90%;
+          }
+    
+
+          .phonz{
+            max-width: 40%;
+            height: auto;
+            position: absolute;
+            bottom: -300px;
+            z-index: 1;
+            left: 310px;
+            opacity: 40%;
+            transform: scaleX(-1);
+            margin-top:-50%
+              }
+
+              .phonz:hover{
+
+                opacity: 90%;
+              }
+
+
+
+              .moods2{
+
+             width: 100%;
+             opacity: 60%;
+             transition: scale 0.3s ease; 
+             scale: 1;
+              }
+        
+
+              .moods2:hover{
+                
+                opacity: 100%;
+                scale:1.5;
+              }
+        

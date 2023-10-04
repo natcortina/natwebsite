@@ -1,0 +1,39 @@
+.animationsheader{
+
+    font-size: 80px;
+}
+
+.resumetext.animationheader2{
+
+    font-size: 20px;
+}
+
+
+
+.video-container {
+ max-width:  400px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#h2{
+   text-align: center;
+}
+
+#pa{
+
+    text-align: center;
+}
+
+     /* id for animations page */
+
+     #animationspage {
+        float: left;
+        width: 50%;
+       
+      }

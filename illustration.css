@@ -1,35 +1,70 @@
-.container{
 
-    background-color: #FAF3E4    ;
-      font-family: 'Cutive Mono', monospace;
-      display: flex;
+.animationsheader{
+
+  font-size: 80px;
+}
+
+.resumetext.animationheader2{
+
+  font-size: 20px;
+}
+
+
+
+.video-container {
+max-width:  400px;
+  margin: 0 auto;
+  align-content: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+#h2{
+ text-align: center;
+}
+
+#pa{
+
+  text-align: center;
+}
+
+   /* id for animations page */
+
+   #dibujos {
       float: left;
-      }
-  
-      .columns{
-        background-color: #FAF3E4    ;
-          display: flex;
-          width: 100%; 
-          padding: 0px;
-          float: left;
+      width: 25%;
      
+    }
+
+
+    .image-container {
+      width: 300px; 
+      height: 400px; 
+      transition: transform 0.3s;
+      flex-direction: row;
+      display: flex;
+     
+   margin: 30px;
+   margin-right: 40px;
+  }
+
+  .wordcontainer{
+    flex-direction: column;
+
+  }
+
+
+  .bigger{
+    width:100%;
+transition: 0.3s;
+  }
+
+  .bigger:hover{
+
+transform: scale(1.5);
+    
       }
 
-      .column{
-        flex: 1; 
-        margin: 10px;
-        padding: 10px;
-      
-    
-      }
-    
-      .row{
-        background-color: #FAF3E4    ;
-        width: 100%;
-        padding: 0px;
-    
-      }
-
-      #yellowintro{
-        background-color: #ffdc85;
-      }
