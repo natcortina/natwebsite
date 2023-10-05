@@ -73,3 +73,10 @@ p{
     width: 100vw;
   
 }
+
+#websitetext{
+
+    margin: 20px;
+    word-wrap: normal;
+    text-align: left;
+}

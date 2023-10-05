@@ -31,9 +31,16 @@ h2{
 
 .resumetext {
     margin: 10px;
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 60px;
 }
 
+.resumetext2 {
+    margin: 10px;
+    font-size: 15px;
+    inline-size: 20px;
+    margin-left: 60px;
+}
 
 a {
     color: hotpink;
@@ -76,6 +83,7 @@ a {
 
 
   #natalia a{
+    margin-left: 40px;
     text-decoration: none;
     color: rgb(0, 0, 0);
   }
@@ -132,7 +140,7 @@ top: 0;
     max-width: 50%;
     height: auto;
     position: absolute;
-    top: 80px;
+    top: 160px;
     z-index: 1;
     left: 250px;
     opacity: 40%;
@@ -226,4 +234,14 @@ top: 0;
     word-wrap: normal;
 }
 
+
+#addspaceforgirlicon{
+
+    margin-top: 130px;
+}
+
+#addmargin{
+
+    margin: 60px;
+}
 
