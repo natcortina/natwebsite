@@ -2,9 +2,9 @@
     max-width: 9%;
     height: auto;
     position: absolute;
-    top: 100px;
+    top: 130px;
     z-index: 1;
-    right: 60px;
+    right: 110px;
     opacity: 60%;
     transition:  0.5s ease; 
       }
