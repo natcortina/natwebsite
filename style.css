@@ -85,11 +85,12 @@ a {
   #natalia a{
     margin-left: 40px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: hotpink;
   }
   #natalia a:hover{
     text-decoration: none;
-    color: hotpink;
+   
+    color: rgb(0, 0, 0);
   }
 
   .container{
