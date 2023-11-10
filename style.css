@@ -143,8 +143,8 @@ top: 0;
   .baby{
     max-width: 50%;
     height: auto;
-    position: absolute;
-    top: 260px;
+    position: relative;
+    bottom: 1000px;
     z-index: 1;
     left: 250px;
     opacity: 40%;
